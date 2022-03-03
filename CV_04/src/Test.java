@@ -19,7 +19,7 @@ public class Test {
 		}
 		return cislo;
 	}
-
+	/**/
 	public static float pouzeCelaneboDestinna(Scanner sc) // Try catch pro kontrolu celych cisel a desetinných
 	{
 		float cislo = 0;
@@ -36,7 +36,7 @@ public class Test {
 		}
 		return cislo;
 	}
-
+	/**/
 	public static int vIndexu(Scanner sc, Databaze mojeDatabaze){
 		int index = 0;
 		try {
@@ -58,7 +58,7 @@ public class Test {
 		}
 		return index;
 	}
-
+	/**/
 	public static void normalPrumer(Scanner sc, Databaze mojeDatabaze){
 		int index = 0;
 		float prum = 0;
@@ -102,11 +102,11 @@ public class Test {
 				case 2:
 					mojeDatabaze.setStudent();
 					break;
-				case 3:
+				case 3: /**/
 					System.out.println("Zadejte index a prumer studenta");
 					normalPrumer(sc,mojeDatabaze);
 					break;
-				case 4:
+				case 4: /**/
 					System.out.println("Zadejte index studenta");
 					idx=vIndexu(sc,mojeDatabaze);
 					Student info=mojeDatabaze.getStudent(idx);
