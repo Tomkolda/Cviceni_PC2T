@@ -19,7 +19,7 @@ public class Databaze {
 	{
 		return prvkyDatabaze[idx];
 	}
-	
+	/**/
 	public void setPrumer(int idx, float prumer) throws Vyjimky
 	{
 		prvkyDatabaze[idx].setStudijniPrumer(prumer);
